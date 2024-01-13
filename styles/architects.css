@@ -87,6 +87,29 @@ main {
   gap: 24px;
 }
 
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-card-container .facts-card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 2rem;
+}
+.facts-card-container .facts-card-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.facts-description {
+  font-size: 20px;
+  font-weight: 600;
+  color: #727272;
+}
+
 /* media query */
 @media screen and (max-width: 576px) {
   .website-title {
