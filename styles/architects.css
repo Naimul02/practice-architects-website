@@ -81,6 +81,37 @@ main {
   color: #ff900e;
   font-weight: 700;
 }
+.feature-section {
+  display: flex;
+  gap: 100px;
+  margin-top: 130px;
+}
+.feature-card {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+.experience10 {
+  border-radius: 8px;
+  background-color: #ff900e;
+  padding: 40px;
+  width: 342px;
+}
+.ten-year {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+}
+.experience-para {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 40px;
+}
 .teams-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
