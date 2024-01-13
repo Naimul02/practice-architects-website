@@ -83,8 +83,16 @@ main {
 }
 .feature-section {
   display: flex;
-  gap: 100px;
+  gap: 80px;
   margin-top: 130px;
+}
+.feature-img .experience10 {
+  position: relative;
+  bottom: 100px;
+}
+.feature-img img {
+  margin-left: 50px;
+  height: 88%;
 }
 .feature-card {
   border-radius: 8px;
@@ -98,6 +106,7 @@ main {
   background-color: #ff900e;
   padding: 40px;
   width: 342px;
+  text-align: center;
 }
 .ten-year {
   font-size: 65px;
@@ -105,12 +114,14 @@ main {
   line-height: 70px;
   color: #fff;
   text-align: center;
+  margin: 0;
 }
 .experience-para {
   font-size: 25px;
   font-weight: 500;
   color: #fff;
   line-height: 40px;
+  margin: 0;
 }
 .teams-img {
   display: grid;
@@ -169,12 +180,23 @@ main {
   .navigation,
   .teams-container,
   .facts-card-container,
-  .sponsor-img {
+  .sponsor-img,
+  .feature-section {
     flex-direction: column;
   }
   .sponsor-img {
     align-items: center;
     gap: 50px;
+  }
+  .feature-img img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .experience10 {
+    width: 100%;
+    position: static;
+    bottom: 0px;
+    padding: 20px 0;
   }
   .facts-card-container {
     gap: 20px;
@@ -192,8 +214,12 @@ main {
   .navigation,
   .teams-container,
   .sponsor-img,
-  .facts-card-container {
+  .facts-card-container,
+  .feature-section {
     flex-direction: column;
+  }
+  .feature-img img {
+    margin-left: 10px;
   }
   .facts-card-container {
     gap: 20px;
